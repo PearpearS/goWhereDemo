@@ -1,0 +1,65 @@
+git上传顺序
+ 1.cd到指定文件
+ 2.git add .  将你更新的内容添加到缓存区
+ 3.git commit -m '更新说明'
+ 4.git push
+
+Git拉取操作
+git pull 拉取远程的新分支到本地
+git checkout xxxx 在这个分支上开发 (vscode要重新关闭一下，再看右下角在哪个分支上)
+Git status 看看现在在哪个分支上
+
+合并git操作
+1.git add . 将分支的内容添加到缓存区
+2.git commit -m 'xxxx'。更新说明
+3.git push。推送到分支
+4.git checkout master 打开master
+5.git merge origin/分支 合并master
+6.git push 提交到master
+
+Git branch  显示分支列表
+
+
+码云，可以放代码
+阿里巴巴矢量图里面可以创建项目，用图标，直接复制代码即可
+stylus  预编译css
+Stylus-loader。预编译css
+vue-awesome-swiper vue轮播插件 建议用这个版本npm install vue-awesome-swiper@2.6.7 --save
+Axios	vue版ajax
+better-scroll  城市界面向下滚动的插件
+vuex	状态管理器
+
+
+vue-cli里 @表示src文件，所以在import有时候可以用
+在style里面则用～@表示src文件
+在web pack.base.conf.js的alias里，可以设置一些规则，比如我这里就自定义快捷键了，（需要重启npm服务，因为会报错）
+
+
+www.github.com 上vue-awesome-swiper。这个vue轮播插件 建议用这个版本npm install vue-awesome-swiper@2.6.7 --save
+
+图片是放在static文件里的
+rem单位 .06rem 就是3（如果html fons-size=50px）
+
+<keep-alive></keep-alive>:将路由的数据存放在缓存里，这样就不会频繁调用ajax了
+
+组件中的name，主要用于递归组件（递归自己的时候）如下 Detail=》list=〉第九行
+
+
+$route为当前router跳转对象里面可以获取name、path、query、params等
+
+$router为VueRouter实例，想要导航到不同URL，则使用$router.push方法
+
+真机调试
+window下： cmd输入 ifconfig
+Mac下：终端输入 ipconfig
+找到inet 192.168.43.43 netmask 0xffffff00 broadcast 192.168.43.255 第一个ip地址复制到
+浏览器即可（项目和手机要在同一个网络）
+
+打包项目
+Cd文件。npm run build  生成的dist文件就是打包后的项目
+	
+
+
+
+
+

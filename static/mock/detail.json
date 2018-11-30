@@ -1,0 +1,25 @@
+{
+    "ret": true,
+    "data": {
+        "sightName": "灵山大佛(AAAA景区)",
+        "bannerImg": "http://img1.qunarzz.com/sight/p0/1503/88/88fe892b930435c6.water.jpg_600x330_d93e094a.jpg",
+        "gallaryImgs": ["http://img1.qunarzz.com/sight/p0/1503/88/88fe892b930435c6.water.jpg_600x330_d93e094a.jpg", "http://img1.qunarzz.com/sight/p0/1503/8b/8bd2f59714371e98.water.jpg_r_800x800_67a9a421.jpg"],
+        "categoryList": [{
+            "title": "成人票",
+            "children": [{
+                "title": "成人三馆联票",
+                "children": [{
+                    "title": "成人三馆联票 - 连锁店销售"
+                }]
+            }, {
+                "title": "成人五馆联票"
+            }]
+        }, {
+            "title": "学生票"
+        }, {
+            "title": "儿童票"
+        }, {
+            "title": "特惠票"
+        }]
+    }
+}
